@@ -1,0 +1,78 @@
+.hero {
+    background: url(/get-a-quote/bundles/1e43b3d3143d78241357dee92c7a4bed.jpg) 30% center no-repeat;
+    background-size: cover;
+}
+
+/*override to display navigation arrows on carousel*/
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+h3 {
+    margin-top: 0px !important;
+    padding-top: 20px;
+}
+
+#customerservice {
+    background: #f4f4f4;
+}
+
+button.owl-next {
+    line-height: 0.2em !important;
+}
+
+button.owl-prev {
+    line-height: 0.2em !important;
+}
+
+@media all and (min-width: 1px) and (max-width: 992px) {
+
+    .hero {
+        background: url(/get-a-quote/bundles/93535d73038d74011b8d25be056c6641.jpg) no-repeat;
+    }
+
+    .pad-three-sides {
+        padding: 15px 20px 0px 20px
+    }
+}
+
+@media all and (min-width: 1px) and (max-width: 767px) {
+
+    .hero {
+        background: url(/get-a-quote/bundles/93535d73038d74011b8d25be056c6641.jpg) top center no-repeat !important;
+        background-size: cover !important;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    button.owl-prev {
+        left: 0px !important;
+    }
+
+    button.owl-next {
+        right: 0px !important;
+    }
+}
+
+
+
+@media all and (min-width: 1px) and (max-width: 576px) {
+
+    h3 {
+        font-size: 1rem
+    }
+
+    .circle-graphic {
+        margin: 30px 20px;
+        width: 260px
+    }
+
+    .ul-decor {
+        padding-left: 10px
+    }
+}
+
+
+/*# sourceMappingURL=../GWC-WCIns~ea1f58e8.8939a54579c9d82c1782.bundle.map*/

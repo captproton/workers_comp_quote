@@ -1,0 +1,652 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h5,
+h6 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+h5,
+h6 {
+    font-weight: bold;
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 1rem
+}
+
+.purchasepath-occupancy select,
+.classlookup {
+    max-width: 300px;
+    width: 20vw;
+}
+
+.with-period {
+    white-space: nowrap;
+}
+
+    .with-period::after {
+        content: ".";
+    }
+
+/*to override home css which hides the logo*/
+#logo a.standard-logo {
+    display: block !important;
+}
+
+.hero {
+    background: url(/bundles/fd44510a0fa8e516a0ad3cc3ff64b227.jpg) 20% center no-repeat;
+    background-size: cover;
+}
+
+b {
+    font-weight: bold;
+}
+
+section.container-fluid {
+    padding: 0 2em !important;
+}
+
+.form-padding {
+    padding: 30px 40px !important
+}
+
+.formContainer {
+    max-width: none;
+}
+
+.no-wrap {
+    white-space: nowrap
+}
+
+input, select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form-control {
+    color: #999
+}
+
+.no-margintop {
+    margin-top: 0px !important;
+}
+
+/*=== CSS FOR biberk.css overwrites ==*/
+h1 {
+    font-size: 1.8rem !important;
+    margin-bottom: 0;
+}
+
+.formContainer h1 {
+    margin-bottom: 0
+}
+
+button:disabled, button.btn-primary:disabled, a.btn-primary:disabled {
+    border: 1px solid #E1E1D2 !important;
+    color: #767676 !important
+}
+
+section {
+    padding: 0em !important;
+    border: none !important;
+    border-radius: 0em !important;
+    background: none;
+}
+
+
+/*=== END overwrites ==*/
+
+.right-feature h1 {
+    color: #ffffff !important;
+    margin: 10px 0 0 0;
+    text-transform: none;
+}
+
+.hero-feature {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    background-color: #34495e;
+}
+
+.checkmark-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 10px 10px 40px;
+    text-align: left;
+    line-height: 1;
+}
+
+.promotional-text {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.hidden-sm {
+    display: block !important;
+}
+
+.mobile-bottom-feature {
+    display: none !important;
+}
+
+.mobile-bottom-feature {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    color: #ffffff;
+    font-size: 1.0rem;
+    background-color: #1F2C38;
+}
+
+.right-feature {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: #ffffff !important;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #1F2C38;
+    font-weight: 300;
+}
+
+.twenty-percent-promo {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #34495e;
+    font-weight: 300;
+}
+
+#footer p {
+    font-size: 0.75rem;
+}
+
+bb-footer footer {
+    padding: 20px 0 0 0 !important;
+}
+
+.btn-block {
+    text-align: left;
+    padding-left: 10px;
+    background-color: #eaeaea;
+    color: #555;
+    border: 1px solid #c7c7c7
+}
+
+    .btn-block:hover,
+    .btn-block:focus {
+        background: #333;
+        color: #ffffff
+    }
+
+.lob-button.button.button-large {
+    height: auto !important;
+    background-color: #ffffff;
+    text-transform: none;
+    white-space: normal;
+    margin-top: 10px !important;
+}
+
+    .lob-button.button.button-large:hover {
+        background-color: #f5f5f5;
+    }
+
+.lob-button.button-large p {
+    color: #999;
+    font-weight: 300;
+    text-shadow: none;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    overflow-wrap: normal;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+
+.lob-button.button-large h5 {
+    font-size: 1.1rem;
+    padding-top: 14px;
+    text-shadow: none;
+    overflow-wrap: normal;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    padding-bottom: 8px;
+    letter-spacing: 0px;
+}
+
+.back-to-form {
+    color: #767676 !important;
+    cursor: pointer;
+    padding: 8px 12px;
+    width: auto;
+}
+
+    .back-to-form:hover {
+        color: #19B5B1 !important;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+
+.swoop-container {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    height: auto;
+}
+
+    .swoop-container .swoop {
+        position: absolute;
+        left: 0;
+        transition: transform 320ms ease-in-out, opacity 160ms ease-in-out, visibility 160ms ease-in-out;
+        transform: translateX(0px);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .swoop-container .swoop-hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+        .swoop-container .swoop-hidden.go-left {
+            transform: translateX(-220px);
+        }
+
+        .swoop-container .swoop-hidden.go-right {
+            transform: translateX(220px);
+        }
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 1px) and (max-width: 420px) {
+
+    .hero {
+        min-height: 180px !important;
+    }
+}
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 1px) and (max-width: 576px) {
+
+    /*=== CSS FOR biberk.css overwrites ==*/
+    form.formContainer.swoop-container.m-5.pt-0.pb-0 {
+        margin: 0px !important;
+    }
+
+    div.pr-5.pl-5 {
+        padding-right: 20px !important;
+    }
+
+    div.pl-5 {
+        padding-left: 20px !important;
+    }
+
+    p.adlib {
+        line-height: 1.6rem !important
+    }
+
+    p button {
+        padding: 9px !important;
+    }
+
+    init-loader {
+        min-height: 400px;
+    }
+
+    .right-feature h1 {
+        font-size: 1.6rem !important;
+    }
+
+    /*=== END overwrites ==*/
+    .circle-graphic {
+        margin: 30px 0 0 0px;
+        width: 300px
+    }
+
+    ul {
+        margin: 20px 0px 20px 10px
+    }
+
+    #content {
+        padding: 0px 15px
+    }
+
+    .form-padding {
+        padding: 10px 30px !important
+    }
+
+    .heading-block h1 {
+        font-size: 28px;
+    }
+
+    .button-full {
+        padding: 20px 30px !important
+    }
+
+    h2 {
+        line-height: 1.2
+    }
+
+    .hero-text {
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 20px 0px 10px 20px;
+        text-align: left;
+        line-height: 1.9;
+    }
+
+    .hidden-sm {
+        display: none !important;
+    }
+
+    .mobile-bottom-feature {
+        display: block !important;
+    }
+
+    .checkmark-icon {
+        margin-left: 0px !important;
+    }
+
+    .promotional-text {
+        padding-bottom: 8px !important;
+        vertical-align: middle;
+    }
+
+    .row.bottommargin-sm {
+        margin-left: 10px;
+        margin-bottom: 15px !important;
+    }
+}
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 1px) and (max-width: 767px) {
+
+    .hero {
+        background: url(/bundles/8f73490fd807aba4ae3ca4a2ce676764.jpg) top center no-repeat !important;
+        background-size: cover !important;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+
+    .hidden-sm {
+        display: none !important;
+    }
+
+    .mobile-bottom-feature {
+        display: block !important;
+    }
+
+    .hero-feature {
+        width: 55%;
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 55%
+    }
+
+    .no-bottommargin {
+        margin-bottom: 0px !important;
+    }
+
+    .checkmark-icon {
+        margin-left: 40px;
+    }
+
+    .promotional-text {
+        margin-left: 10px !important;
+    }
+}
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 1px) and (max-width: 992px) {
+
+    .hero {
+        min-height: 275px;
+        max-height: 250px;
+        background: url(/bundles/8f73490fd807aba4ae3ca4a2ce676764.jpg) no-repeat;
+    }
+
+    .full-screen {
+        height: auto !important;
+    }
+
+    .hero-feature {
+        width: 70%;
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 48%;
+    }
+
+    .padding-top {
+        padding-top: 20px;
+    }
+
+    .checkmark-icon {
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .hero-text {
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 20px 0px 10px 20px !important;
+        text-align: left;
+        line-height: 1.9;
+    }
+
+    .promotional-text {
+        line-height: 1.2rem;
+        font-size: 1rem;
+        padding-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .right-feature {
+        width: 100%;
+        height: auto;
+        padding: 10px 30px;
+        color: #ffffff;
+        font-size: 1.0rem;
+        background-color: #1F2C38;
+    }
+
+    .twenty-percent-promo {
+        display: none;
+    }
+
+    .swoop-container .button {
+        margin-top: 10px;
+    }
+
+    .one-page-arrow {
+        display: none;
+    }
+
+    .purchasepath-occupancy select,
+    .classlookup {
+        width: auto;
+    }
+}
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 993px) and (max-width: 1200px) {
+    .purchasepath-occupancy select,
+    .classlookup {
+        max-width: 220px;
+    }
+}
+
+/*min-width: 1px is an IE fix for inline media queries*/
+@media all and (min-width: 1px) and (max-width: 2000px) {
+
+    .hero-text {
+        font-size: 0.8rem;
+    }
+}
+
+
+/*css for brochureware*/
+
+.ul-decor {
+    list-style-type: disc;
+    margin-top: 10px;
+    padding-left: 40px;
+    line-height: 2;
+    color: #333;
+    font-size: 1rem
+}
+
+.pad-three-sides {
+    padding: 60px 60px 0px 80px;
+}
+
+.officephoto {
+    background: url(/bundles/fc6f5fc37ff773987f258d72bf3a412a.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.color-light {
+    color: #EEE !important;
+}
+
+.set-line-height {
+    line-height: 2 !important;
+}
+
+.testimonials-grid li {
+    padding: 25px;
+}
+
+    .testimonials-grid li:after {
+        border-bottom: 1px dashed #DDD;
+    }
+
+.footer-text-decor {
+    color: rgba(255,255,255,0.25) !important;
+    line-height: 1.8 !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+#gotoTop {
+    display: none;
+    z-index: 299;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+    #gotoTop:hover {
+        background-color: #19B5B1;
+    }
+
+.inline-block-display {
+    display: inline-block !important;
+}
+
+.one-page-arrow {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -16px;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    text-align: center;
+    color: #222 !important;
+}
+
+.icon-angle-down {
+    background-color: #d3d3d3 !important;
+    width: 48px;
+    border-radius: 36px;
+}
+
+.bg-grey {
+    background-color: #e5e5e5;
+}
+
+.pad-top-twenty {
+    padding-top: 20px;
+}
+
+.two-time {
+    animation-iteration-count: 2;
+}
+
+.notrans {
+    text-transform: none;
+}
+
+.phys-add {
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+/*# sourceMappingURL=../app~e2e93592.9eeb45fadcb45e2dc8d5.bundle.map*/

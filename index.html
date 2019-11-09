@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get a Worker's Comp Quote</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+	<link rel="icon" type="image/png" href="https://content.biberk.com/marketing/images/newblue/icons/favicons/apple-touch-icon.png" sizes="180x180">
+	<link href="/css/bootstrap.min.css?v=20191105_15_50" rel="stylesheet" type="text/css">
+	<link href="/css/fa/v4/font-awesome.min.css?v=20191105_15_50" rel="stylesheet" type="text/css">
+	<link href="/css/biberk-primary.min.css?v=20191105_15_50" rel="stylesheet" type="text/css">
+	<link href="/css/biberk-homepage.min.css?v=20191105_15_50" rel="stylesheet" type="text/css">
+	<link href="/bundles/css/app~e2e93592.2f2596304c2840d39e06.chunk.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="/bundles/css/GWC-WCIns~ea1f58e8.62152da8e9cc61245988.chunk.css">
+</head>
+<body>
+	<header id="header" class="full-header">
+        <section id="header-wrap">
+            <section class="container-fluid clearfix">
+                <section show.bind="!nolinks" id="primary-menu-trigger" click.trigger="mobileHeaderMenuShow = !mobileHeaderMenuShow" class="au-target aurelia-hide" au-target-id="129">
+                    <i class="icon-reorder"></i>
+                </section>
+                <section id="logo">
+                    <a class="standard-logo au-target" data-dark-logo.one-way="biberkLogp" au-target-id="130" href="https://www.biberk.com/">
+                        <img src.one-time="biberkLogo" alt="biBERK Logo" class="au-target" au-target-id="131" src="https://content.biberk.com/marketing/images/logo@2x.png?v=20191105_15_50">
+                    </a>
+                </section>
+                <nav id="primary-menu">
+                    <ul show.bind="!nolinks" class="au-target aurelia-hide" au-target-id="132">
+                        <li>
+                            <a class="au-target" au-target-id="133" href="https://www.biberk.com/about-biberk">
+                                <div class="about-biberk">ABOUT BiBERK</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="specialAnchorTags" id="productsHeading">
+                                <div class="menu_arrow">
+                                    Insurance Products
+                                    <i class="icon-angle-down"></i>
+                                </div>
+                            </a>
+                            <ul id="productsSubMenu">
+                                <li>
+                                    <a class="au-target" au-target-id="134" href="https://www.biberk.com/workers-comp">
+                                        <div>Workers' Comp</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="135" href="https://www.biberk.com/general-liability">
+                                        <div>General Liability</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="136" href="https://www.biberk.com/property-n-liability">
+                                        <div>Property &amp; Liability</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="137" href="https://www.biberk.com/commercial-auto">
+                                        <div>Commercial Auto</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="138" href="https://www.biberk.com/umbrella">
+                                        <div>Umbrella</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="specialAnchorTags" id="policyHeading">
+                                <div>
+                                    Policyholders
+                                    <i class="icon-angle-down"></i>
+                                </div>
+                            </a>
+                            <ul id="policySubMenu">
+                                <li>
+                                    <a class="au-target" au-target-id="139" href="https://www.biberk.com/policy/certificate">
+                                        <div>Get Certificate</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="140" href="https://www.biberk.com/policy/claim">
+                                        <div>Make A Claim</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="au-target" au-target-id="141" href="https://www.biberk.com/policy/payment">
+                                        <div>Make Payment</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="top-phone" class="d-none d-lg-block">
+                        <a class="au-target invocaTelLink" au-target-id="142" href="tel:855-405-6619" data-invoca-campaign-id="372455">
+                            <i class="icon-phone3"></i><span data-invoca-campaign-id="372455" class="invocaNumber">1-855-405-6619</span></a>
+                    </div>
+                    <!-- This below div is visible only on smaller screens such as tablets, mobile i.e. screns with window width < 991px -->
+                    <div class="tablet mobile">
+                        <div id="side-panel-trigger" class="side-panel-trigger">
+                            <a class="au-target invocaTelLink" au-target-id="144" href="tel:855-405-6619" data-invoca-campaign-id="372455">
+                                <i class="icon-phone3"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </nav>
+            </section>
+        </section>
+    </header>
+<main>
+        <router-view class="au-target" au-target-id="189">
+    <!-- test save of non-functional change to see if encoding issue is addressed -->
+    <section id="slider" class="slider-element slider-parallax" style="height: 630.4px;">
+        <div id="slider-inner" class="row full-screen nomargin" style="height: 630.4px; transform: translateY(0px);">
+
+            <div class="col-lg-6 col-md-12 center nopadding hero">
+                <div class="hero-feature center hidden-sm clearfix" style="z-index: 2;">
+
+                    <div class="row hero-text">
+                        <div class="col-lg-4 col-md-8 padding-top">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="promotional-text">Part of Warren Buffett's Berkshire Hathaway Insurance Group</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-8 padding-top">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="promotional-text">Instant Coverage - your policy in minutes</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-8 padding-top">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="promotional-text">A++ Rated - among the top 3% of all Insurers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- right shell feature starting -->
+            <div class="col-lg-6 col-md-12 nopadding bg-grey">
+                <div class="row nomargin">
+                    <div class="col-lg-12 right-feature">
+                        <h1 class="no-margintop">Buy Workers' Compensation Insurance</h1>
+                    </div>
+                    <div class="col-lg-12 twenty-percent-promo">
+                        <b>Save up to 20%</b> on your business insurance
+                    </div>
+                </div><!-- right shell feature ends -->
+                <compose view-model="../landing" class="au-target" au-target-id="192">
+	
+	
+	
+	
+
+	<form class="formContainer swoop-container m-5 pt-0 pb-0 au-target" data-init="Landing" ref="formElement" au-target-id="207" style="height: 418px;">
+
+		<div style="width:100%;" class="au-target swoop full-width go-left" au-target-id="208">
+            <!--anchor-->
+            <h1>let's talk business</h1><!--anchor-->
+
+			<div class="pr-5 pl-5">
+				<p class="adlib">
+					My business has
+					<employee-count empcount.bind="EmpCount" class="au-target bb-custom-element" au-target-id="212">
+  <input bbv-required="" bbv-if="condition.bind: greaterThanZero(); msg: Enter a numeric value only;" type="tel" value.bind="empcount" change.delegate="floor()" placeholder="#" autocomplete="off" maxlength="6" size="1" class="text-center au-target bb-validation-error" au-target-id="199" id="EmpCount" bb-validation-id="_awp2xbak8" bb-validation-input="1">
+</employee-count> employees and is in
+					<zip-code zipcode.bind="ZipCode" class="with-period au-target bb-custom-element" au-target-id="213">
+  <input class="zip text-center au-target" bbv-required="" bbv-custom="pattern: [0-9]{5}; msg: Please enter a valid zipcode." bbv-id="zipcode-${id}" bbv-controller="Counties" type="tel" placeholder="zip code" value.bind="zipcode" autocomplete="off" maxlength="5" au-target-id="198" bb-validation-id="_1h78o58bb" bb-validation-input="1">
+</zip-code> My business is in the
+					<class-search label="${ClassDescriptionKeyword}" zipcode.bind="ZipCode" value.bind="ClassDescriptionInfo" class="au-target bb-custom-element" au-target-id="214">
+  <input class="classlookup au-target ui-autocomplete-input" bbv-required="" type="text" bbv-controller="ClassDescriptionKeywords" placeholder="florist, groomer, etc..." autocomplete="off" keydown.trigger="classKeyDown($event)" au-target-id="200" id="ClassSearch" bb-validation-id="_tipkrrgm9" bb-validation-input="1">
+  <i class="fa fa-spinner fa-pulse fa-fw"></i>
+</class-search>
+					<span show.bind="ClassDescriptionKeywordId != 0" class="au-target" au-target-id="215">
+						industry and 
+					</span>
+					<span show.bind="ClassDescriptionKeywordId == 0" class="au-target aurelia-hide" au-target-id="217">
+						industry. What does your business do?: <input type="text" value.bind="whatBizDo &amp; updateTrigger:'blur'" autocomplete="off" class="au-target" au-target-id="218">. <br> <span show.bind="ShowOccupancyType" class="au-target" au-target-id="219">My business</span>
+					</span>
+					<span show.bind="ShowOccupancyType" class="au-target" au-target-id="220">
+						is based in a
+						<bb-select no-auto-width="true" selected.bind="OccupancyType" list.bind="occupancyList" class="purchasepath-occupancy with-period au-target bb-custom-element" required="true" au-target-id="221">
+  <span ref="di" class="au-target" au-target-id="4">
+  <select value.bind="stringvalue" ref="ipt" class="au-target" au-target-id="5" placeholder="description of operation location" bb-validation-id="_k4h2pjr2b" bb-validation-input="1">
+    <option value="">description of operation location</option>
+    <option model.bind="item.value.toString()" class="au-target" au-target-id="7">My home/apartment</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Building I lease</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Building I own and run my business out of</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Building I own/manage and lease to others</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Shared/Coworking space</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Commercial condo I lease</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Commercial condo I own</option><option model.bind="item.value.toString()" class="au-target" au-target-id="7">Kiosk</option><!--anchor-->
+  </select>
+  <i show.bind="busy" class="fa fa-spinner fa-pulse fa-fw au-target aurelia-hide" au-target-id="10"></i>
+  </span>
+</bb-select><!--anchor-->
+					</span>
+				</p>
+
+				<p class="small">By continuing, I certify and represent that the information provided to biBERK is true, correct and complete to the best of my knowledge.</p>
+
+				<p style="text-align:center;">
+					<button type="button" disabled.bind="!allFieldsAnswered || lobsLoading" click.delegate="ContinueFromAdLibs()" class="au-target" au-target-id="223" disabled="">Start Free Quote</button>
+				</p>
+			</div>
+		</div>
+
+        <div style="width:100%;" class="au-target form-padding swoop go-right swoop-hidden" au-target-id="224">
+            <div show.bind="lobsLoading" class="row au-target aurelia-hide" au-target-id="225">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
+                    <div class="loader"></div>
+                </div>
+            </div>
+            <!--anchor-->
+            <div class="heading-block nobottomborder text-center bottommargin-sm">
+                <div class="row bottommargin-sm">
+                    <div click.delegate="allFieldsAnsweredAndContinued = false" class="back-to-form au-target" au-target-id="236">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF8mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMjJUMTc6MDI6NTEtMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTIyVDE3OjA1OjIwLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTIyVDE3OjA1OjIwLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjI1ODRlM2U0LWMwZjYtNDc3YS05NDA0LTE4NzE4YzcwN2E1OSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxMWJjODRlMi1iMzk0LTRkZTUtYjkxYy00YWNhZDZhZTQyZTciIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxMWJjODRlMi1iMzk0LTRkZTUtYjkxYy00YWNhZDZhZTQyZTciPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjExYmM4NGUyLWIzOTQtNGRlNS1iOTFjLTRhY2FkNmFlNDJlNyIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0yMlQxNzowMjo1MS0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI1ODRlM2U0LWMwZjYtNDc3YS05NDA0LTE4NzE4YzcwN2E1OSIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0yMlQxNzowNToyMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VGqwxAAAAL5JREFUOI2l0j9LglEUx/GPpa22BbY5SOjm7OzS6CBuTb0TJ5eGXkIvwtFdkAiUllwLFRRcivzT8ICDPPJ4b7/xHL5fzrnnkp4KGrg60T8kf6LexBy/WYKLlNoDbtDHPktwnDZ6uA4FScZ+QikGruMZdzFwGV1UY+AcXvCOgWT87ZlsAbO0KwTnXytcYokVHjHFIlQAn9iggzesQwXwgSJaGOI7VABj3OIeI/yECuAVNclJJzECkkfd4UvGv/gDfQIhZO3GpokAAAAASUVORK5CYII=" alt="back"> Back
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Select a Product</h3>
+                    </div>
+                </div>
+                <!--anchor-->
+            </div><!--anchor-->
+        </div>
+	</form>
+</compose>
+
+                <div class="row">
+                    <div class="col-xs-12 center mobile-bottom-feature">
+                        <div class="row bottommargin-sm">
+                            <div class="col-xs-2 checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                            <div class="col-xs-8 promotional-text">Part of Warren Buffett's Berkshire<br> Hathaway Insurance Group</div>
+                            <div class="col-xs-2"></div>
+                        </div>
+
+                        <div class="row bottommargin-sm">
+                            <div class="col-xs-2 checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                            <div class="col-xs-8 promotional-text">Instant Coverage -<br> your policy in minutes</div>
+                            <div class="col-xs-2"></div>
+                        </div>
+
+                        <div class="row bottommargin-sm no-bottommargin">
+                            <div class="col-xs-2 checkmark-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDgtMTdUMTE6NDg6MDItMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA4LTE3VDExOjUwOjAxLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmMyYzU2MC01YTdiLTQyNGUtYjU3NS05OTEyYjA2ZTc5OTIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViYzJjNTYwLTVhN2ItNDI0ZS1iNTc1LTk5MTJiMDZlNzk5MiIgc3RFdnQ6d2hlbj0iMjAxOC0wOC0xN1QxMTo0ODowMi0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nFmpswAAA45JREFUWIXN2M+LlVUYB/DPvLqZRdYikQIrlSapgcFGHfsllCRRY1EMoRCFEEYtWg/9ATHLaJHkpp9Qi4nwV4VhguWA0JCBoDnqzLgIRMvUxaykFud5u2fufe+de6c70BcuPOec5zzf733e857zvKfnrsP7dYgH8BQexf24G70xNoffMYUJ/IDfOgm+vAPfV7A7xLTCagyFvxD1ET5vh6SnjQw9g3exoWLsAmZxPdq3416sq/D9Be/gu1ZkC2XoA7xZ1/cNxnE8BFVhHbZiBM9G3wZ8i714qxlhswzdhu+l1Jf4EmP4tdU/qMAARrEz6zuJp3Gz3rmoCNCLnzMxV/E8di1CjJizK2Jcjb6h4Oitd64S9CP6smD9OLgIIfU4GLHKP9UXXC0FfYjBsE+HfbkLYkpcjpinoz0YnJWCtmJP2DfxGG51UUyJWxG7XD97grtB0CeZ/SJuLIGYEjeCo4G7FDSC+8Lej6NLKKbE0eAS3CO5oNHM8e0uE/fgiHSEbKkby7lGS0Fr1RbyEVzqspgJac/pw8t145eCU2hYW2A4c/i0y2JOqGVlFu9V+OWcw8vVNsC/cayLYibqxGxU2xhzHAvuHgwVWB8D01Lp0A0xeWZmsKmJGME5Hfb6Aiuj0eygXIyYR6I9i824ssC8kntloXaeNBx0gYekLf6zNgTlYmakx7SQmJy7t50C7XU8Hr87sKPCp8BPGjPT7DE1RSGVnaSSowr78FfYwzhU4ZNnZhoPay8zJUruuSKbWFXlwRlpUZainjP/9K9/tYfwZwdicu4rBc5GY41UsFfhvPQISlHD+BhfScU+ac0M6iwzgnNN2GcLqXojvSFPtpg4JWXqWrRfw0uZmM34o0MxgrMn7JOF+Wvi1QUmn5ceyfWsb0b7b1MVcs5DBS5iMjq2454FAkxJj+aMVIZusrjMCK7tYU/iYnnaj2VO77cR6AIe1HoHbgc51xi18mNcSj28gG3/gaRdbAsuwT2eCyIt0hJfY8USilkRHA3cuaDj0iZI2qhOYNkSiFkWscvNcF9wNwiCN9QWeH/Yq7ooZlXE7I/2ZHD+i6rvsidwLuwB6ZOl6vzqFDsi1kC0zwXXPFQJmpP2lXLDvBMH8EUWrBMMxNwDEUvE3qh2jrYURCoHtkgXAyV24hQOS9cyzc4+MbY7fE+Z/12/N2JXljv/u+uYdgSVaPfCqh5dv7Cqx5Je6f0D2HfStVHpXC8AAAAASUVORK5CYII=" alt="crBtn"></div>
+                            <div class="col-xs-8 promotional-text">A++ Rated - among the top 3%<br> of all Insurers</div>
+                            <div class="col-xs-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <a click.trigger="bottomFunction()" class="one-page-arrow au-target" au-target-id="193">
+                    <i class="icon-angle-down two-time animated fadeInDown"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Section 2 ============================================= -->
+    <section class="sub-container pad-top-twenty pad-three-sides">
+        <section id="content">
+            <div class="container">
+                <div class="row nomargin">
+                    <div class="col-lg-6 col-md-12">
+                        <h2>Learn more about<br> covering your business</h2>
+                        <div class="circle-graphic">
+                            <img src="/bundles/05354c7145be3d49e6b34d257829a02f.jpg" alt="small business insurance">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h2 class="text-left">Workers’ Compensation protects your business.</h2>
+                        <ul class="ul-decor">
+                            <li><b>Avoid high out-of-pocket business expenses.</b> Workers’ comp insurance puts limits on what employers are expected to pay.</li>
+                            <li><b>Protection from lawsuits.</b> Before Workers’ comp insurance, employees could sue their employers for personal injuries on the job, often leading to high (and often bankrupting) expenses.</li>
+                            <li><b>Compliance with state laws.</b> Workers’ comp insurance helps companies avoid fines and penalties levied by the state for not having proper insurance.</li>
+                        </ul>
+                        <h2 class="text-left">What is workers’ compensation insurance?</h2>
+                        <p class="set-line-height">Workers’ compensation insurance—commonly called workers’ comp—is an often-mandatory type of insurance that protects both your employees and your company if an employee experiences an injury or disease while at work. Having a workers’ comp policy through biBERK protects small-business owners if unexpected accidents happen, like:</p>
+                        <ul class="ul-decor">
+                            <li>Strains</li>
+                            <li>Trips and falls</li>
+                            <li>Unsafe working conditions</li>
+                            <li>Accidental death</li>
+                        </ul>
+                        <p class="set-line-height">Workers’ compensation insurance helps pay for all the bills related to a work-related injury, including medical care and lost wages. In return, you’re protected as a business owner if other issues come up.</p>
+                        <h2 class="text-left">Expenses that are not covered by workers’ comp: </h2>
+                        <ul class="ul-decor">
+                            <li>Wages for a replacement employee </li>
+                            <li>OSHA fees and penalties </li>
+                            <li>Improvements to workplace safety</li>
+                            <li>Third-party damage</li>
+                            <li>Cards or other gifts for injured employees</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><!-- #content end -->
+        <!-- Section 3 ============================================= -->
+        <section id="whybiberk">
+            <div class="row nomargin">
+                <div class="col-lg-6 dark pad-three-sides" style="background-color: #34495e">
+                    <div>
+                        <h2>Why choose biBERK for workers’ compensation?</h2>
+                        <p class="color-light text-justify"><b>Save time:</b><span style="font-weight: 300">  Get a quote entirely online or speak with an insurance expert to get your questions answered immediately.</span> </p>
+                        <p class="color-light text-justify"><b>Save up to 20%:</b><span style="font-weight: 300">  We insure your small business directly, without a middleman or insurance broker, so we pass that savings on to you.</span></p>
+                        <p class="color-light text-justify"><b>Superior customer service:</b><span style="font-weight: 300">  Our small-business insurance customers have access to the most payment options and lowest down payments in the industry—all available through the biBERK online system. We also offer a fast and easy claims process and top-of-the-line customer service backed by licensed small-business experts at Berkshire Hathaway. </span></p>
+                    </div>
+                    <a click.trigger="topFunction()" data-scrollto="#nav" data-easing="easeInOutExpo" data-speed="250" data-offset="25" class="au-target" au-target-id="194">
+                        <div class="button button-primary bottommargin-lg">Get a quote</div>
+                    </a>
+                </div>
+                <div class="col-lg-6 officephoto ohidden">
+                </div>
+            </div>
+        </section><!-- #whybiberk end -->
+        <!-- Section 4 ============================================= -->
+        <section id="customerservice">
+            <div class="container clearfix">
+                <section class="heading-block center">
+                    <h3>Real People.  <span class="inline-block-display">Real Coverage.</span></h3>
+                    <span>We pride ourselves in being business insurance geeks.</span>
+                </section>
+
+                <section id="oc-portfolio" class="owl-carousel portfolio-carousel portfolio-nomargin carousel-widget owl-loaded owl-drag">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1160px, 0px, 0px); transition: all 0s ease 0s; width: 3770px;"><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/205291c64de1d07f0db28d5dce8bc411.jpg" alt="Customer Service">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Get a person on the phone!</h3>
+                                <span>Team members available to take your calls</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/9e88023912a3cc7e3fc2de34e2b3a6b6.jpg" alt="Tailored Insurance">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Tailored Insurance</h3>
+                                <span>Here to help you find the right coverage for your small business</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/8976f78491b4ffd265e77c2981570a2c.jpg" alt="Real Coverage Instantly">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Real Coverage Instantly</h3>
+                                <span>Get small business coverage in minutes through our experts or online anytime</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/c09285c2cc7c3fd77faa93db8f13cd01.jpg" alt="Dedication to Service">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Dedication to Service</h3>
+                                <span>Our experienced team is available to assist your small business</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/1bc59cc20398ed88172afa8d8ed8604f.jpg" alt="Licensed Experts">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Licensed Experts</h3>
+                                <span>Looking for guidance and advice? Talk to our trusted experts.</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/205291c64de1d07f0db28d5dce8bc411.jpg" alt="Customer Service">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Get a person on the phone!</h3>
+                                <span>Team members available to take your calls</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/9e88023912a3cc7e3fc2de34e2b3a6b6.jpg" alt="Tailored Insurance">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Tailored Insurance</h3>
+                                <span>Here to help you find the right coverage for your small business</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/8976f78491b4ffd265e77c2981570a2c.jpg" alt="Real Coverage Instantly">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Real Coverage Instantly</h3>
+                                <span>Get small business coverage in minutes through our experts or online anytime</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/c09285c2cc7c3fd77faa93db8f13cd01.jpg" alt="Dedication to Service">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Dedication to Service</h3>
+                                <span>Our experienced team is available to assist your small business</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/1bc59cc20398ed88172afa8d8ed8604f.jpg" alt="Licensed Experts">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Licensed Experts</h3>
+                                <span>Looking for guidance and advice? Talk to our trusted experts.</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/205291c64de1d07f0db28d5dce8bc411.jpg" alt="Customer Service">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Get a person on the phone!</h3>
+                                <span>Team members available to take your calls</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/9e88023912a3cc7e3fc2de34e2b3a6b6.jpg" alt="Tailored Insurance">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Tailored Insurance</h3>
+                                <span>Here to help you find the right coverage for your small business</span>
+                            </div>
+                        </div>
+                    </div></div><div class="owl-item cloned" style="width: 270px; margin-right: 20px;"><div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <img src="/bundles/8976f78491b4ffd265e77c2981570a2c.jpg" alt="Real Coverage Instantly">
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3>Real Coverage Instantly</h3>
+                                <span>Get small business coverage in minutes through our experts or online anytime</span>
+                            </div>
+                        </div>
+                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><i class="icon-angle-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="icon-angle-right"></i></button></div><div class="owl-dots disabled"></div></section>
+
+                <section class="heading-block topmargin-sm center pb-4">
+                    <h4>Available Monday – Friday</h4>
+                    <span>7 am – 9 pm ET at <span data-invoca-campaign-id="372455" class="invocaNumber">855-405-6619</span></span>
+                </section>
+            </div>
+        </section><!-- #customerservice end -->
+        <section>
+            <bb-testimonials class="au-target" au-target-id="195">
+    <section class="topmargin-lg" style="margin-bottom:60px">
+        <section class="container clearfix testimonialsPanel">
+            <section class="heading-block center">
+                <h3>Testimonials</h3>
+                <span>Check out some of biBERK's customer reviews.</span>
+            </section>
+            <!-- This below section is visible on larger screens only-->
+            <section class="desktop">
+                <section class="row">
+                    <div class="col-sm-1">
+                        <a class="testimonialsNavigation au-target" click.delegate="moveLeft()" au-target-id="183">
+                            <i class="icon-angle-left icon-3x"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-10">
+                        <ul class="testimonials-grid grid-3 clearfix nobottommargin" id="testimonialsGrid_LargeScreens">
+                            <!-- List Items here are getting generated dynamically
+                            after reading external json file. This logic is in
+                            testimonials.js file.  -->
+                        <li class="testimonials-list" id="testimonialList_0" style="display: inline;"><div class="testimonial"><div class="testi-content"><p>I was able to get a quote very quickly with a minimal amount of steps involved.  I found it very easy to navigate, almost too simple.  An agent called me, and we did another quote as I had some questions about whether to include myself in the coverage.  It was then that I decided to make the purchase.</p><div class="testi-meta">Dan</div></div></div></li><li class="testimonials-list" id="testimonialList_1" style="display: inline;"><div class="testimonial"><div class="testi-content"><p>The site was easy to navigate, it took very little time to answer the questions, and I had my quote within a few minutes instead of days.</p><div class="testi-meta">Renee</div></div></div></li><li class="testimonials-list" id="testimonialList_2" style="display: inline;"><div class="testimonial"><div class="testi-content"><p>I found your site very efficient and easy to use, but the best part was the availability of a human with a heart being so professional and accessible.  We were able to communicate, and I got a call back as promised.  The price was fair and I like the fact that if I do have additional payroll, I can report it and have my premium adjusted accordingly.  I was pleasantly surprised that the service was so nice!</p><div class="testi-meta">Sergio</div></div></div></li><li class="testimonials-list" id="testimonialList_3" style="display: none;"><div class="testimonial"><div class="testi-content"><p>One of the better customer service experiences.  Everything was as it should have been.  Quick responses and all questions were answered.  Whole process was quick.  Great.  It works for me.</p><div class="testi-meta">Kean</div></div></div></li><li class="testimonials-list" id="testimonialList_4" style="display: none;"><div class="testimonial"><div class="testi-content"><p>A very good experience.  Chatting was easy and not intrusive.  The website was refreshing.</p><div class="testi-meta">Greg</div></div></div></li><li class="testimonials-list" id="testimonialList_5" style="display: none;"><div class="testimonial"><div class="testi-content"><p>The price was very good, and I liked how quickly I received a call.</p><div class="testi-meta">Jennifer</div></div></div></li><li class="testimonials-list" id="testimonialList_6" style="display: none;"><div class="testimonial"><div class="testi-content"><p>What I like most was the service I received from Julie and my interaction with her. Speaking with her gave me the confidence to go with biBERK.com over the other competitor I was considering. Customer service is very important to me, and I needed to know that I would get a response and call back when I need it.</p><div class="testi-meta">John</div></div></div></li><li class="testimonials-list" id="testimonialList_7" style="display: none;"><div class="testimonial"><div class="testi-content"><p>The site was very easy to use, and I liked the fact that there was a phone number to call and a real person to speak to. I feel that the price was very competitive, and I was surprised at how fast and easy it was to go through the quoting process straight through to the purchase. I needed a policy by tomorrow, and I was able to buy one.</p><div class="testi-meta">Robert</div></div></div></li><li class="testimonials-list" id="testimonialList_8" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I did not even search for a new policy at renewal because of the great service I get.  Every time I've needed them, they've always been right there and provided what I needed very quickly.</p><div class="testi-meta">Ronald</div></div></div></li><li class="testimonials-list" id="testimonialList_9" style="display: none;"><div class="testimonial"><div class="testi-content"><p>Very accommodating, fast and easy.  Friendly service and great people.  Making payments and getting certificates is an easy process.  Customer service is through the roof excellent!</p><div class="testi-meta">Chris</div></div></div></li><li class="testimonials-list" id="testimonialList_10" style="display: none;"><div class="testimonial"><div class="testi-content"><p>You were very helpful, and the process was quick and easy.  It was nice to talk directly with someone, and I received detailed answers to all my questions.  You made me feel very comfortable.</p><div class="testi-meta">Jacob</div></div></div></li><li class="testimonials-list" id="testimonialList_11" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I needed to get insurance quickly for an upcoming job that was really important to me.  I called the number on the website, feel like I got a good deal, and the price was affordable.  The person who worked with me was very nice and followed up when I needed proof of coverage.</p><div class="testi-meta">Jason</div></div></div></li><li class="testimonials-list" id="testimonialList_12" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I found your site to be easy to use and very self-explanatory.  The price was manageable and fair.  I was surprised at how quickly I was able to bind the policy and receive proof of insurance that I needed for a job requirement.  I was also pleasantly surprised with the excellent help I received from the agent.</p><div class="testi-meta">Natisha</div></div></div></li><li class="testimonials-list" id="testimonialList_13" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I found the website to be self-explanatory and easy to use. I decided to call the number to be sure it was a valid company. I was pleasantly surprised with my interaction with my agent. She was very knowledgeable and helpful, which gave me the confidence to buy online. I am very pleased with my purchase, and the customer service is great!</p><div class="testi-meta">Candice</div></div></div></li><li class="testimonials-list" id="testimonialList_14" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I think this site is much easier to use than other sites.  Also, I appreciated the fact that my agent kept in touch with me, and when I was ready to purchase, she made it happen very quickly.</p><div class="testi-meta">Jeff</div></div></div></li><li class="testimonials-list" id="testimonialList_15" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I loved my interaction with my agent!  She turned it around really quickly!</p><div class="testi-meta">Michelle</div></div></div></li><li class="testimonials-list" id="testimonialList_16" style="display: none;"><div class="testimonial"><div class="testi-content"><p>biBERK.com saved me a bunch of money and provided excellent service! I tried going to big insurance companies, but you guys handled it much better.</p><div class="testi-meta">Leon</div></div></div></li><li class="testimonials-list" id="testimonialList_17" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I was pleased with how quickly biBERK.com turned around my online application, and when I needed phone support, I got through to a real human quickly!</p><div class="testi-meta">Jay</div></div></div></li><li class="testimonials-list" id="testimonialList_18" style="display: none;"><div class="testimonial"><div class="testi-content"><p>The process was a good experience, as it was easy and quick. Also, it was easy to speak with a live person instead of a recorded message. I also felt at ease with my purchase because it is a Berkshire Hathaway company.</p><div class="testi-meta">Khalid</div></div></div></li><li class="testimonials-list" id="testimonialList_19" style="display: none;"><div class="testimonial"><div class="testi-content"><p>The customer service was fantastic. More than anything, it was painless and efficient. I've been trying for two weeks to get coverage, and this was done in hours. Also, the service was informative for anyone not knowledgeable about insurance. Very appreciative of that aspect.</p><div class="testi-meta">Anthony</div></div></div></li><li class="testimonials-list" id="testimonialList_20" style="display: none;"><div class="testimonial"><div class="testi-content"><p>I thought it was outstandingly easy to use.  I don't like being on the phone for an hour going through multiple steps.  I came across this by chance and started going through the process online and thought, 'WOW, this is too easy!'  I actually stopped for a bit and thought 'Can it really be this easy?'  WOW, WOW, WOW!</p><div class="testi-meta">George</div></div></div></li><li class="testimonials-list" id="testimonialList_21" style="display: none;"><div class="testimonial"><div class="testi-content"><p>The website is very easy to use, much clearer than others. The policy center online is great. It gives information clearly and is easy to navigate. I really appreciate your customer service. Some companies, once you go online, they are hands off. Since I am new in business, it was nice to have someone there to help me figure out what I needed.</p><div class="testi-meta">Jill</div></div></div></li></ul>
+                    </div>
+                    <div class="col-sm-1">
+                        <a class="testimonialsNavigation au-target" click.delegate="moveRight()" au-target-id="184">
+                            <i class="icon-angle-right icon-3x"></i>
+                        </a>
+                    </div>
+                </section>
+            </section>
+            <!-- This below section is visible only on smaller screens such as tablets, mobile i.e. screns with window width < 991px -->
+            <section class="tablet mobile">
+                <section class="row">
+                    <section class="col-12">
+                        <ul class="testimonials-grid grid-3 clearfix nobottommargin" id="testimonialsGrid_SmallScreens">
+                            <!-- List Items here are getting generated dynamically
+                            after reading external json file.This logic is in
+                            testimonials.js file.  -->
+                        </ul>
+                    </section>
+                </section>
+                <br>
+                <section class="row">
+                    <div class="col align-self-start">
+                        <a click.delegate="moveLeft()" class="au-target" au-target-id="185">
+                            <i class="icon-angle-left icon-3x"></i>
+                        </a>
+                    </div>
+                    <div class="col align-self-end">
+                        <a click.delegate="moveRight()" class="au-target" au-target-id="186">
+                            <i class="icon-angle-right icon-3x"></i>
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+</bb-testimonials>
+        </section>
+        <!-- Section 5  ============================================= -->
+        <section id="bottomcta">
+            <a click.trigger="topFunction()" class="button button-full text-right footer-stick au-target" au-target-id="196">
+                <div class="container clearfix">
+                    <div class="row bottommargin">
+                        <div class="col-lg-8">
+                            <h3 class="dark nomargin color-light text-right">Protect your business with workers' compensation insurance.</h3>
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="color-light" style="font-size: 28px;"><strong>Get your Quote</strong><i class="icon-caret-right" style="top:4px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="container clearfix"></div>
+        </section><!-- #bottomcta end -->
+        <!-- Footer============================================= -->
+        <footer id="footer" class="dark nopadding">
+            <!-- Copyrights ============================================= -->
+            <div id="copyrights">
+                <div class="container clearfix">
+                    <div class="col text-justify">
+                        <p class="footer-text-decor">Most policies issued through biBERK.com will be underwritten by Wellfleet Insurance Company (WIC), Berkshire Hathaway Direct Insurance Company (BHDIC), National Liability &amp; Fire Insurance Company (NLF), or Wellfleet New York Insurance Company (WNYIC), which are AM Best rated A++ insurers. </p>
+                        <p class="footer-text-decor">© 2019 <span class="notrans">biBERK</span> Insurance Services</p>
+                    </div>
+                </div>
+            </div><!-- #copyrights end -->
+        </footer><!-- #footer end -->
+
+        <div id="gotoTop" click.trigger="topFunction()" class="icon-angle-up au-target" au-target-id="197"></div>
+    </section>
+</router-view>
+    </main>    
+</body>
+</html>
